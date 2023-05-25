@@ -1,0 +1,196 @@
+body,
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(173, 216, 230, 0.484);
+    padding: 10px 50px;
+    position: fixed;
+    width: 100%;
+}
+
+.header-content .name a {
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 40px;
+    
+}
+
+.header-content .name a:hover {
+    background-color: aqua;
+}
+
+.header-list-wrapper {
+    width: 250px;
+    position: fixed;
+    /* background-color: cadetblue; */
+}
+
+
+.home {
+    display: flex;
+    padding-top: 45px;
+
+}
+
+.header-list-wrapper ul {
+    list-style-type: none;
+    height: 250px;
+
+}
+
+ .header-list-wrapper  li {
+   
+    height: 30px;
+    padding: 5px 25px;
+    padding: 20px 10px;
+    border-radius: 30px;
+}
+
+.header-list-wrapper a {
+    text-decoration: none;
+}
+
+.header-list-wrapper li a {
+
+    color: rgba(23, 120, 133, 0.877);
+}
+
+.header-links li a:hover {
+    /* display: block; */
+    padding: 5px 25px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 30px;
+}
+
+/* main page content */
+.main {
+    margin:  50px 20px;
+    background-color: rgba(100, 148, 237, 0.187);
+    border-radius: 30px;
+    padding-left: 150px;
+    padding-right: 120px;
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    text-align: left;
+}
+
+.main p {
+    text-align: center;
+}
+
+.main .button {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: end;
+}
+
+.button:hover {
+    background-color: cadetblue;
+
+}
+
+.media {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.media a {
+    padding: 10px;
+    color: black;
+
+}
+
+.media a:hover {
+    color: rgba(0, 0, 255, 0.511);
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+.main-content h1:hover {
+    color: rgba(23, 120, 133, 0.877);
+}
+
+.emoji img {
+    position: static;
+    border-radius: 20px;
+    height: 500px;
+    width: 250px;
+    opacity: 0.8;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.emoji img:hover{
+    opacity: 1;
+}
+
+
+/* about page content  starts */
+.about {
+    margin: 50px 20px;
+    background-color: rgba(100, 148, 237, 0.187);
+    border-radius: 30px;
+    padding: 0px 30px;
+    margin-left: 250px;
+    width: 80%;  
+}
+.my{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.skill{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.276);
+    border-radius: 10px;margin: 10px;
+    width: 150px;
+}
+.skill:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+/*  contact page content starts */
+
+.contact{
+    margin: 100px 100px 20px;
+    background-color: rgba(100, 148, 237, 0.187);
+    border-radius: 30px;
+    padding: 0px 30px;
+    margin-left: 250px;
+    width: 80%;  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mine ul {
+    list-style-type: none;
+}
+.mine a{
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
